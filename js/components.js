@@ -38,7 +38,7 @@ function getGallery() {
     } else {
         for (let i = 0; i < data.gallery.length; i++) {
             let card = `<div class="col-xl-3 col-lg-4 col-md-6 mb-4">
-        <div class="bg-white rounded shadow-sm"><a href="${data.gallery[i]}"
+        <div class="bg-white rounded shadow-sm"><a href="${data.gallery[i].image}"
             data-lightbox="photos"><img src="${data.gallery[i].image}" alt="" class="img-fluid card-img-top">
           <div class="p-4">
             <h5> <a href="#" class="text-dark">${data.gallery[i].name}</a></h5>
